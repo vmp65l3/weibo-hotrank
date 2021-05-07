@@ -1,0 +1,28 @@
+
+name: 自动更新
+
+on:
+  schedule:
+  - cron: "0/60 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    
+    - name: Renew
+      run: python3 weibo_hotrank.py
+
+    - name: Commit and push
+      run: |
+        git diff
+        git config --global user.email "626522796@qq.com"
+        git config --global user.name "暗号"
+        git add README.md
+        git commit -m "Github Action Auto Updated"
+        git push
