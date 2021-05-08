@@ -1,5 +1,6 @@
 import requests
 import datetime
+import lxml
 from bs4 import BeautifulSoup
 
 
