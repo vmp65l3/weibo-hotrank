@@ -26,7 +26,7 @@ jobs:
 
     - name: Commit and push
       run: |
-        git diff
+        #git diff
         git config --global user.email "626522796@qq.com"
         git config --global user.name "暗号"
         git add README.md
