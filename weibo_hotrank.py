@@ -4,7 +4,6 @@ import lxml
 import bs4
 
 
-
 news = []
 # 存放热搜的数组
 
@@ -34,3 +33,28 @@ for i in news:
 f.write('\n' + '\n')
 
 print('OK!')
+
+
+# 将上面得到的数据生成词云
+
+
+#import os  
+#os.environ['FONT_PATH'] = "/System/Library/fonts/PingFang.ttc"
+# 使 wordcloud 支持中文
+
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+import jieba
+
+
+text_from_file_with_apath = open('hotrank.csv').read()
+
+wordlist_after_jieba = jieba.cut(text_from_file_with_apath, cut_all = True)
+wl_space_split = " ".join(wordlist_after_jieba)
+
+my_wordcloud = WordCloud(font_path="msyh.ttf").generate(wl_space_split)
+
+plt.imshow(my_wordcloud)
+plt.axis("off")
+plt.savefig('词云图片.jpg')
+#plt.show()
