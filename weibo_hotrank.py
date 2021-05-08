@@ -20,7 +20,7 @@ today = datetime.date.today()
 
 title = bs.select('#pl_top_realtimehot > table > tbody > tr > td.td-02 > a')
 
-for i in range(10):
+for i in range(50):
 	hot_news = {}
 	# 将信息保存到字典中
 	hot_news['title'] = title[i+1].get_text()
