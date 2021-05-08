@@ -1,7 +1,7 @@
 import requests
 import datetime
 import lxml
-from bs4 import BeautifulSoup
+import bs4
 
 
 
@@ -13,7 +13,7 @@ hot_url = 'https://s.weibo.com/top/summary'
 
 r = requests.get(hot_url)
 
-bs = BeautifulSoup(r.text, 'lxml')
+bs = bs4.BeautifulSoup(r.text, 'lxml')
 # 解析页面
 
 today = datetime.date.today()
