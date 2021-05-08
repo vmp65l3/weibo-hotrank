@@ -2,3 +2,6 @@ requests
 datetime
 lxml
 beautifulsoup4
+matplotlib.pyplot
+jieba
+wordcloud
