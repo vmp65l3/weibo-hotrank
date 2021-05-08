@@ -3,8 +3,7 @@ name: Auto action
 
 on:
   schedule:
-  - cron: "0/60 * * * *"
-  push:
+  - cron: "0 0/3 * * *"
 
 jobs:
   build:
