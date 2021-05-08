@@ -26,7 +26,7 @@ for i in range(10):
 	hot_news['title'] = title[i+1].get_text()
 	news.append(hot_news)
 	
-f = open('hot.csv', 'a', encoding='utf-8-sig')
+f = open('hotrank.csv', 'a', encoding='utf-8-sig')
 f.write(str(today) + ',')
 for i in news:
 	f.write(i['title'] + ',')
