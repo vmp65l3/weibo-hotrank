@@ -4,6 +4,7 @@ import lxml
 from bs4 import BeautifulSoup
 
 
+
 news = []
 # 存放热搜的数组
 
