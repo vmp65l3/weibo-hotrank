@@ -1,6 +1,7 @@
+import requests
+import datetime
+from bs4 import BeautifulSoup
 
-today = datetime.date.today()
-# 日期
 
 news = []
 # 存放热搜的数组
@@ -12,6 +13,9 @@ r = requests.get(hot_url)
 
 bs = BeautifulSoup(r.text, 'lxml')
 # 解析页面
+
+today = datetime.date.today()
+# 日期
 
 title = bs.select('#pl_top_realtimehot > table > tbody > tr > td.td-02 > a')
 
