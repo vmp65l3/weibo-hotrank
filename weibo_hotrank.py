@@ -56,5 +56,5 @@ my_wordcloud = WordCloud(font_path="msyh.ttf", width=1920, height=1080).generate
 
 plt.imshow(my_wordcloud)
 plt.axis("off")
-plt.savefig('词云图片.jpg', bbox_inches='tight', dpi=360, pad_inches=0)
+plt.savefig('词云图片.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
 #输出图片并去除白边
