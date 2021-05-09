@@ -4,7 +4,7 @@ utctime = datetime.utcnow()
 
 bjtime = utctime + timedelta(hours=8)
 
-bjtime = bjtime.strftime('%Y-%m-%d-%H-%M')
+bjtime = bjtime.strftime('%Y-%m-%d')
 
 
 
