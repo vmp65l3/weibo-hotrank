@@ -4,6 +4,7 @@ name: Auto action
 on:
   schedule:
   - cron: "0 6,9,12,15,18,21,23 * * *"
+  push:
   
 env:
   TZ: Asia/Shanghai

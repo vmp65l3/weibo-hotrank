@@ -1,9 +1,11 @@
 import requests
-import datetime
 import lxml
 import bs4
+from datetime import datetime, timedelta
 
-
+utctime = datetime.utcnow()
+bjtime = utctime + timedelta(hours=8)
+bjtime = bjtime.strftime('%Y-%m-%d-%H')
 
 news = []
 # 存放热搜的数组
@@ -16,8 +18,6 @@ r = requests.get(hot_url)
 bs = bs4.BeautifulSoup(r.text, 'lxml')
 # 解析页面
 
-today = datetime.date.today()
-# 日期
 
 title = bs.select('#pl_top_realtimehot > table > tbody > tr > td.td-02 > a')
 
@@ -28,7 +28,7 @@ for i in range(50):
 	news.append(hot_news)
 	
 f = open('hotrank.csv', 'a', encoding='utf-8-sig')
-f.write(str(today) + ',')
+f.write(str(bjtime) + ',')
 for i in news:
 	f.write(i['title'] + ',')
 f.write('\n' + '\n')
@@ -55,10 +55,8 @@ my_wordcloud = WordCloud(font_path="msyh.ttf", width=1920, height=1080).generate
 plt.imshow(my_wordcloud)
 plt.axis("off")
 
-today = datetime.date.today()
-# 日期
 
-plt.savefig('fig/' + str(today) + '.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
+plt.savefig('fig/' + str(bjtime) + '.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
 #输出图片并去除白边 
 
 
