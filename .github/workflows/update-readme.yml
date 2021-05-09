@@ -4,6 +4,7 @@ name: Update Readme
 on:
   schedule:
   - cron: "0 6 * * *"
+  push:
   
 env:
   TZ: Asia/Shanghai
