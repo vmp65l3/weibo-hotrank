@@ -1,5 +1,12 @@
+from datetime import datetime, timedelta
 
-import datetime
-today = datetime.date.today()
+utctime = datetime.utcnow()
+
+bjtime = utctime + timedelta(hours=8)
+
+bjtime = bjtime.strftime('%Y-%m-%d-%H-%M')
+
+
+
 f = open('README.md', 'a')
-f.write('\n' + '##' + ' ' + str(today) + '\n' + '![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/' + str(today) + '.jpg)' + '\n')
+f.write('\n' + '##' + ' ' + str(bjtime) + '\n' + '![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/' + str(bjtime) + '.jpg)' + '\n')
