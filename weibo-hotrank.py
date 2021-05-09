@@ -33,15 +33,12 @@ for i in news:
 	f.write(i['title'] + ',')
 f.write('\n' + '\n')
 
-print('OK!')
+print('数据抓取完成！')
+
+
 
 
 # 将上面得到的数据生成词云
-
-
-#import os  
-#os.environ['FONT_PATH'] = "/System/Library/fonts/PingFang.ttc"
-# 使 wordcloud 支持中文
 
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
@@ -60,5 +57,9 @@ plt.axis("off")
 
 today = datetime.date.today()
 # 日期
-plt.savefig(str(today) + '.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
+
+plt.savefig('fig/' + str(today) + '.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
 #输出图片并去除白边 
+
+
+
