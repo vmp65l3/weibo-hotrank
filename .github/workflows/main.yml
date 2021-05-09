@@ -3,7 +3,7 @@ name: Auto action
 
 on:
   schedule:
-  - cron: "30 0/3 * * *"
+  - cron: "0 6,9,12,15,18,21,23 * * *"
   
 env:
   TZ: Asia/Shanghai
