@@ -1,5 +1,5 @@
 
-name: Auto action
+name: Update Readme
 
 on:
   schedule:
