@@ -60,5 +60,5 @@ plt.axis("off")
 
 today = datetime.date.today()
 # 日期
-plt.savefig(str(today) + '词云图.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
+plt.savefig(str(today) +' ' + '词云图.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
 #输出图片并去除白边 
