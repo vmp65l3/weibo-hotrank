@@ -4,6 +4,7 @@ name: Auto action
 on:
   schedule:
   - cron: "0 * * * *"
+  push:
 
 jobs:
   build:
