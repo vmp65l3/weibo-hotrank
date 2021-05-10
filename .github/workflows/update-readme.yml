@@ -3,10 +3,8 @@ name: 自动更新 README.md 文件
 
 on:
   schedule:
-  - cron: "0/10 9,10,11 * * *"
-  
-env:
-  TZ: Asia/Shanghai
+  - cron: "0/10 4 * * *"
+
 
 jobs:
   build:
