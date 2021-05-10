@@ -1,5 +1,5 @@
 
-name: Auto action
+name: 自动抓取每日微博热搜并生成词云图
 
 on:
   schedule:
@@ -33,5 +33,5 @@ jobs:
         git config --global user.email "626522796@qq.com"
         git config --global user.name "暗号"
         git add .
-        git commit -am "Github Action Auto Updated"
+        git commit -am "自动抓取每日微博热搜并生成词云图"
         git push

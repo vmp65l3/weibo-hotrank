@@ -1,5 +1,5 @@
 
-name: Auto update readme
+name: 自动更新 README.md 文件
 
 on:
   schedule:
@@ -31,5 +31,5 @@ jobs:
         git diff
         git config --global user.email "626522796@qq.com"
         git config --global user.name "暗号"
-        git commit -am "Github Action Auto Updated"
+        git commit -am "自动更新 README.md 文件"
         git push
