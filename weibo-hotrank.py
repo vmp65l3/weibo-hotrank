@@ -18,7 +18,6 @@ r = requests.get(hot_url)
 bs = bs4.BeautifulSoup(r.text, 'lxml')
 # 解析页面
 
-
 title = bs.select('#pl_top_realtimehot > table > tbody > tr > td.td-02 > a')
 
 for i in range(50):
@@ -37,7 +36,6 @@ print('数据抓取完成！')
 
 
 
-
 # 将上面得到的数据生成词云
 
 import matplotlib.pyplot as plt
@@ -46,18 +44,12 @@ import jieba
 
 
 text_from_file_with_apath = open('hotrank.csv').read()
-
 wordlist_after_jieba = jieba.cut(text_from_file_with_apath, cut_all = True)
 wl_space_split = " ".join(wordlist_after_jieba)
-
 my_wordcloud = WordCloud(font_path="msyh.ttf", width=1920, height=1080).generate(wl_space_split)
 
 plt.imshow(my_wordcloud)
 plt.axis("off")
-
-
 plt.savefig('fig/' + str(bjtime) + '.jpg', bbox_inches='tight', pad_inches=0, dpi=360)
 #输出图片并去除白边 
-
-
 
