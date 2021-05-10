@@ -3,11 +3,8 @@ name: 自动抓取每日微博热搜并生成词云图
 
 on:
   schedule:
-  - cron: "0 6,9,12,15,18,21,23 * * *"
+  - cron: "0 0/3 * * *"
 
-  
-env:
-  TZ: Asia/Shanghai
 
 jobs:
   build:
