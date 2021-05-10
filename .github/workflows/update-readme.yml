@@ -1,9 +1,9 @@
 
-name: Update Readme
+name: Auto update readme
 
 on:
   schedule:
-  - cron: "0,30 9,10 * * *"
+  - cron: "30 0 * * *"
   
 env:
   TZ: Asia/Shanghai
