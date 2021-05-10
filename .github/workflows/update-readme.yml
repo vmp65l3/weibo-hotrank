@@ -3,7 +3,7 @@ name: Update Readme
 
 on:
   schedule:
-  - cron: "0 9 * * *"
+  - cron: "* * * * *"
   
 env:
   TZ: Asia/Shanghai
