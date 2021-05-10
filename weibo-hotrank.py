@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 utctime = datetime.utcnow()
 bjtime = utctime + timedelta(hours=8)
-bjtime = bjtime.strftime('%Y-%m-%d-%H-%M')
+bjtime = bjtime.strftime('%Y-%m-%d')
 
 news = []
 # 存放热搜的数组
