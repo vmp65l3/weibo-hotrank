@@ -3,7 +3,7 @@ name: Auto update readme
 
 on:
   schedule:
-  - cron: "30 0 * * *"
+  - cron: "0/10 9,10,11 * * *"
   
 env:
   TZ: Asia/Shanghai
