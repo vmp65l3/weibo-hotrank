@@ -26,13 +26,13 @@ for i in range(50):
 	hot_news['title'] = title[i+1].get_text()
 	news.append(hot_news)
 	
-f = open('hotrank.csv', 'a', encoding='utf-8-sig')
+f = open('data/' + str(bjtime) + '.csv', 'a', encoding='utf-8-sig')
 f.write(str(bjtime) + ',')
 for i in news:
 	f.write(i['title'] + ',')
 f.write('\n' + '\n')
-
 print('数据抓取完成！')
+
 
 
 
@@ -43,7 +43,7 @@ from wordcloud import WordCloud
 import jieba
 
 
-text_from_file_with_apath = open('hotrank.csv').read()
+text_from_file_with_apath = open('data/' + str(bjtime) + '.csv').read()
 wordlist_after_jieba = jieba.cut(text_from_file_with_apath, cut_all = True)
 wl_space_split = " ".join(wordlist_after_jieba)
 my_wordcloud = WordCloud(font_path="msyh.ttf", width=1920, height=1080).generate(wl_space_split)
