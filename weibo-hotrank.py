@@ -31,8 +31,8 @@ f.write(str(bjtime) + ',')
 for i in news:
 	f.write(i['title'] + ',')
 f.write('\n' + '\n')
+f.close()
 print('数据抓取完成！')
-
 
 
 
