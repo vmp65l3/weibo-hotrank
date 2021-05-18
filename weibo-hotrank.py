@@ -46,7 +46,7 @@ import jieba
 text_from_file_with_apath = open('data/' + str(bjtime) + '.csv').read()
 wordlist_after_jieba = jieba.cut(text_from_file_with_apath, cut_all = True)
 wl_space_split = " ".join(wordlist_after_jieba)
-my_wordcloud = WordCloud(font_path="msyh.ttf", width=1920, height=1080).generate(wl_space_split)
+my_wordcloud = WordCloud(font_path="msyh.ttf", width=1600, height=900).generate(wl_space_split)
 
 plt.imshow(my_wordcloud)
 plt.axis("off")
