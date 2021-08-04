@@ -261,3 +261,6 @@
 
 ## 2021-08-03
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-08-03.jpg)
+
+## 2021-08-04
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-08-04.jpg)
