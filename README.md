@@ -312,3 +312,6 @@
 
 ## 2021-08-20
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-08-20.jpg)
+
+## 2021-08-21
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-08-21.jpg)
