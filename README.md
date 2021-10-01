@@ -435,3 +435,6 @@
 
 ## 2021-09-30
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-09-30.jpg)
+
+## 2021-10-01
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-10-01.jpg)
