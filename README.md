@@ -483,3 +483,6 @@
 
 ## 2021-10-16
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-10-16.jpg)
+
+## 2021-10-17
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-10-17.jpg)
