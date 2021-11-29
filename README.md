@@ -612,3 +612,6 @@
 
 ## 2021-11-28
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-11-28.jpg)
+
+## 2021-11-29
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2021-11-29.jpg)
