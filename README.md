@@ -978,3 +978,6 @@
 
 ## 2022-03-30
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2022-03-30.jpg)
+
+## 2022-03-31
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2022-03-31.jpg)
