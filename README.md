@@ -1047,3 +1047,6 @@
 
 ## 2022-04-22
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2022-04-22.jpg)
+
+## 2022-04-23
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2022-04-23.jpg)
