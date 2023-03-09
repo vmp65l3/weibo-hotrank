@@ -2007,3 +2007,6 @@
 
 ## 2023-03-08
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2023-03-08.jpg)
+
+## 2023-03-09
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2023-03-09.jpg)
