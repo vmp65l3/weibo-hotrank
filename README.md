@@ -2046,3 +2046,6 @@
 
 ## 2023-03-21
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2023-03-21.jpg)
+
+## 2023-03-22
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2023-03-22.jpg)
