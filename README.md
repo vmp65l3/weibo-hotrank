@@ -2193,3 +2193,6 @@
 
 ## 2023-05-09
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2023-05-09.jpg)
+
+## 2023-05-10
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2023-05-10.jpg)
