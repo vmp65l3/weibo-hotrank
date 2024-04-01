@@ -3171,3 +3171,6 @@
 
 ## 2024-03-31
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2024-03-31.jpg)
+
+## 2024-04-01
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2024-04-01.jpg)
