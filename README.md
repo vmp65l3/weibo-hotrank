@@ -3798,3 +3798,6 @@
 
 ## 2024-10-26
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2024-10-26.jpg)
+
+## 2024-10-27
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2024-10-27.jpg)
