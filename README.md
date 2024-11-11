@@ -3843,3 +3843,6 @@
 
 ## 2024-11-10
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2024-11-10.jpg)
+
+## 2024-11-11
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2024-11-11.jpg)
