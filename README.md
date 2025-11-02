@@ -4911,3 +4911,6 @@
 
 ## 2025-11-01
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2025-11-01.jpg)
+
+## 2025-11-02
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2025-11-02.jpg)
