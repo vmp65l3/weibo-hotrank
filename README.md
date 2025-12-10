@@ -5025,3 +5025,6 @@
 
 ## 2025-12-09
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2025-12-09.jpg)
+
+## 2025-12-10
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2025-12-10.jpg)
