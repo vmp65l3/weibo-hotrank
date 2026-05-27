@@ -5526,3 +5526,6 @@
 
 ## 2026-05-26
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2026-05-26.jpg)
+
+## 2026-05-27
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2026-05-27.jpg)
