@@ -5628,3 +5628,6 @@
 
 ## 2026-06-29
 ![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2026-06-29.jpg)
+
+## 2026-06-30
+![image text](https://github.com/vmp65l3/weibo-hotrank/blob/master/fig/2026-06-30.jpg)
